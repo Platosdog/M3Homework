@@ -1,0 +1,14 @@
+td:nth-of-type(-n+8) {
+    color:blue;
+    background-color: blue;
+}
+tr:nth-of-type(even) {
+    color:white;
+    background-color: white;
+}
+tr:nth-of-type(odd) {
+    color:red;
+    background-color: red;
+}
+
+
