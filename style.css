@@ -7,8 +7,8 @@ tr:nth-of-type(odd) {
     color:red;
     background-color: red;
 }
-td:nth-of-type(-n+8) {
-    color:blue;
+tr:nth-of-type(-n+8) td:nth-child(-n+8){
+    color: U+2606;
     background-color: blue;
 }
 
