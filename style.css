@@ -39,3 +39,31 @@ tr:nth-of-type(-n+7) td:nth-child(-n+8):after {
     counter-increment: section; 
     content: counter(section) '.'; 
   }
+
+  h2 {
+    float: left;
+    width: 170px;
+  }
+  .popup {
+    float: left;
+    width: 340px;
+    background: #727272;
+    padding: 10px;
+    border-radius: 6px;
+    color: #FFF;
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .popup:before {
+    content: "";
+    display: circle;
+    width: 10;
+    height: 10;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #ee0d0d;
+    position: absolute;
+    top: 6px;
+    left: -12px;
+  }
