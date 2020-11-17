@@ -30,3 +30,12 @@ tr:nth-of-type(-n+7) td:nth-child(-n+8):after {
   p:after {
     content: ' Flag ever built!!!...... By Me';
   }
+
+  body, .why-container {
+    counter-reset: section; 
+  }
+
+  h3.why::before {
+    counter-increment: section; 
+    content: counter(section) '.'; 
+  }
