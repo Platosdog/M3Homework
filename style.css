@@ -24,4 +24,9 @@ tr:nth-of-type(-n+7) td:nth-child(-n+8):after {
     font-size: 14pt;
  
    }
-
+   p:before {
+    content: 'This is the greatest ';
+  }
+  p:after {
+    content: ' Flag ever built!!!...... By Me';
+  }
